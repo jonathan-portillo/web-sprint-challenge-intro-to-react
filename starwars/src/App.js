@@ -1,8 +1,14 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
-import Character from "./components/Character";
 import Cards from "./components/Cards";
+import Title from "./components/Title";
+import styled from "styled-components";
+
+const Head = styled.h1`
+  color: brown;
+  font-family: Andale Mono;
+`;
 
 const App = () => {
   const [starWarsData, setStartWarsData] = useState([]);
@@ -28,7 +34,8 @@ const App = () => {
   // const starwars = starWarsData;
   return (
     <div className="App">
-      <h1 className="Header">Characters</h1>
+      <Title />
+      <Head className="Header">Characters</Head>
 
       <Cards data={starWarsData} />
     </div>
