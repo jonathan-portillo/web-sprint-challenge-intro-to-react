@@ -29,12 +29,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+   React JS is an open library that allows us to build componenets through javascript. It allows you to style and reference from the library to get your intended result.
 
 1. Describe component state.
+   A component state is an object that determines how components render and react.
 
 1. Describe props.
+   Props are achors within components that allows you to pull information from one component to the next one that is calling upon it.
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+   Side effects are uninteded results of code that you are writing. you use useEffect as a hook in order to mitigate or use the side effect.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -104,6 +108,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` branch (student's  Repo). **Please don't merge your own pull request**
+- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` branch (student's Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete after receiving your pull-request
